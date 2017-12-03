@@ -153,16 +153,16 @@ Sample returned json:
 
 ### State Management
 
-* [Redux](https://redux.js.org/docs/introduction/): 
-* [React Redux](https://github.com/reactjs/react-redux)
+* [Redux](https://redux.js.org/docs/introduction/): The way to go for state management these days.
+* [React Redux](https://github.com/reactjs/react-redux): Easy way to connect React components with Redux in a High Order Component style.
 * [Redux persist](https://github.com/reactjs/redux): Local storage rehydration with [AsyncStorage](https://facebook.github.io/react-native/docs/asyncstorage.html) to avoid server calls when possible
 * [Redux Thunk](https://github.com/gaearon/redux-thunk): Middleware to allow dispatching actions without passing redux all the way down the component tree.
 * [Reselect](https://github.com/reactjs/reselect): Memoized selectors for Redux state to get calculated state without saving it to the store (e.g. the Results list).
 
 ### UI
 
-* [react-navigation](https://reactnavigation.org/docs/intro/): Screen management with StackNavigator. Includes nav state management through a Redux reducer which reacts to regular actions to display the appropriate screen.
-* [native-base](https://docs.nativebase.io/): Base themming framework and enhanced React Native components. It provides CSS-like styling with nested classes but some specific inline styles are still used for convenience (`./src/styles/Styles.js`)
+* [React Navigation](https://reactnavigation.org/docs/intro/): Screen management with StackNavigator. Includes nav state management through a Redux reducer which reacts to regular actions to display the appropriate screen.
+* [Native Base](https://docs.nativebase.io/): Base themming framework and enhanced React Native components. It provides CSS-like styling with nested classes but some specific inline styles are still used for convenience (`./src/styles/Styles.js`)
 
 ### Tests
 
@@ -172,7 +172,7 @@ Mocks and global test setup can be specified at `./__tests__/setup.js`.
 
 * [Jest](https://facebook.github.io/jest/docs/en/getting-started.html): Main test framework with [Snapshot Testing](https://facebook.github.io/jest/docs/en/snapshot-testing.html#content) support to test React components.
 * [Enzyme](http://airbnb.io/enzyme/docs/api/): Enhanced testing utilities for React including shallow rendering and event simulation. Snapshot serialization is automatically enhanced by `enzyme-to-json`.
-* [redux-mock-store](https://github.com/arnaudbenard/redux-mock-store): Fake the Redux store for tests.
+* [Redux Mock Store](https://github.com/arnaudbenard/redux-mock-store): Fake the Redux store for tests.
 
 ### Code Quality
 
