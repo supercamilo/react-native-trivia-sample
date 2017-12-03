@@ -1,0 +1,8 @@
+{
+  "API": {
+    "base_url": "https://opentdb.com/api.php?amount=10&difficulty=hard&type=boolean"
+  },
+  "store": {
+    "purge": false
+  }
+}

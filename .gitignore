@@ -1,0 +1,8 @@
+node_modules/
+.expo/
+npm-debug.*
+.idea/
+android/build/
+android/app/build/
+android/.gradle/
+.tmp/

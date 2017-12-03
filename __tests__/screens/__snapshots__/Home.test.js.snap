@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Home screen correctly renders the Home container 1`] = `
+<HomeView
+  dispatch={[Function]}
+  questionCount={2}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`renders the Home screen correctly renders the Home elements 1`] = `
+<Styled(Container)>
+  <Styled(Header)
+    padder={true}
+  >
+    <Styled(H1)
+      bold={true}
+      center={true}
+    >
+      Welcome to the Trivia Challenge!
+    </Styled(H1)>
+  </Styled(Header)>
+  <GridNB
+    style={
+      Object {
+        "padding": 30,
+      }
+    }
+  >
+    <RowNB
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Styled(Text)
+        center={true}
+      >
+        You will be presented with 2 True or False questions.
+      </Styled(Text)>
+    </RowNB>
+    <RowNB
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Styled(Text)
+        center={true}
+      >
+        Can you score 100%?
+      </Styled(Text)>
+    </RowNB>
+  </GridNB>
+  <Styled(Footer)>
+    <Styled(Body)>
+      <Styled(Button)
+        bordered={true}
+        disabled={false}
+        full={true}
+        info={true}
+        large={true}
+        onPress={[Function]}
+        style={
+          Object {
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          }
+        }
+      >
+        <Styled(Text)
+          uppercase={true}
+        >
+          Begin
+        </Styled(Text)>
+        <Styled(Icon)
+          active={true}
+          name="play-circle-outline"
+          style={
+            Array [
+              Object {
+                "fontSize": 30,
+              },
+              Object {
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
+              },
+            ]
+          }
+        />
+      </Styled(Button)>
+    </Styled(Body)>
+  </Styled(Footer)>
+</Styled(Container)>
+`;

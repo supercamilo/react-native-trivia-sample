@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ResultItem component correctly 1`] = `
+<Styled(ListItem)
+  thumbnail={true}
+>
+  <Styled(Left)
+    style={
+      Array [
+        Object {
+          "height": 30,
+          "width": 30,
+        },
+        Object {
+          "alignItems": "flex-start",
+          "alignSelf": "flex-start",
+          "justifyContent": "flex-start",
+        },
+      ]
+    }
+  >
+    <Styled(Icon)
+      active={true}
+      name="minus-box-outline"
+      style={
+        Array [
+          Object {
+            "color": "#D0021B",
+          },
+          Object {
+            "fontSize": 30,
+          },
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "justifyContent": "center",
+          },
+        ]
+      }
+    />
+  </Styled(Left)>
+  <Styled(Body)>
+    <AutoHeightWebView
+      animationDuration={555}
+      enableAnimation={true}
+      heightOffset={12}
+      scalesPageToFit={false}
+      source={
+        Object {
+          "html": "<p style=\\"font-size: 16px; color:#939598\\">In &quot;The Sims&quot; series, the most members in a household you can have is 8.</p>",
+        }
+      }
+      style={
+        Object {
+          "minHeight": 40,
+          "width": 620,
+        }
+      }
+    />
+    <Styled(Text)
+      note={true}
+      style={
+        Object {
+          "textAlign": "right",
+        }
+      }
+    >
+      your answer: 
+      false
+    </Styled(Text)>
+  </Styled(Body)>
+</Styled(ListItem)>
+`;

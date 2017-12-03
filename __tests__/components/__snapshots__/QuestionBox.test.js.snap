@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the QuestionBox component correctly 1`] = `
+<Styled(Card)
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Styled(CardItem)>
+    <AutoHeightWebView
+      animationDuration={555}
+      enableAnimation={true}
+      heightOffset={12}
+      scalesPageToFit={false}
+      source={
+        Object {
+          "html": "<p style=\\"font-size: 26px; color:#939598\\">In &quot;The Sims&quot; series, the most members in a household you can have is 8.</p>",
+        }
+      }
+      style={
+        Object {
+          "minHeight": 100,
+          "width": 620,
+        }
+      }
+    />
+  </Styled(CardItem)>
+</Styled(Card)>
+`;

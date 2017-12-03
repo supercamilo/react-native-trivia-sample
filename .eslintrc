@@ -1,0 +1,87 @@
+{
+  "extends": ["airbnb", "plugin:flowtype/recommended"],
+  "parser": "babel-eslint",
+  "globals": {
+    "fetch": true,
+    "window": false
+  },
+  "settings": {
+    "import/resolver": "reactnative"
+  },
+  "plugins": [
+    "flowtype",
+    "react-native"
+  ],
+  "rules": {
+    "max-len": [
+      2,
+      140
+    ],
+    "no-unused-vars" : [
+      "error", {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_" }
+    ],
+    // case statements in switch blocks should be indented 1 level (4 spaces)
+    "indent": ["warn", 4, { "SwitchCase": 1 }],
+    "linebreak-style": 0,
+    "arrow-body-style": 0,
+    "prefer-arrow-callback": 0,
+    "object-curly-newline": 0,
+    "yoda": 0,
+    "arrow-parens": [
+      2,
+      "always"
+    ],
+    "import/no-extraneous-dependencies" : "off",
+    "func-names": 0,
+    "no-confusing-arrow": [
+      2,
+      { "allowParens": true }
+    ],
+    "no-return-assign": [
+      2,
+      "except-parens"
+    ],
+    "no-unused-expressions": [
+      2,
+      { "allowShortCircuit": true }
+    ],
+    "flowtype/require-valid-file-annotation": [
+      2,
+      "always"
+    ],
+    "flowtype/space-after-type-colon": [
+      2,
+      "always"
+    ],
+    "flowtype/require-return-type": [
+      1,
+      "always",
+      {
+        "excludeArrowFunctions": true
+      }
+    ],
+    "import/prefer-default-export" : 0,
+    "no-bitwise" : 0,
+    "global-require" : 0,
+    "no-restricted-syntax": 0,
+    "no-console": 0,
+    "no-use-before-define": 0,
+    "flowtype/define-flow-type": 1,
+    "no-underscore-dangle": 0,
+    "react/jsx-uses-vars": 2,
+    "react/jsx-indent": ["warn", 4],
+    "react/jsx-indent-props": ["warn", 4],
+    "react/sort-comp": 0,
+    "react/prefer-stateless-function": [2, { "ignorePureComponents": true }],
+    "react/jsx-filename-extension": ["error", { "extensions": [".js"] }],
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 2
+  },
+  "env": {
+    "jest": true
+  }
+}

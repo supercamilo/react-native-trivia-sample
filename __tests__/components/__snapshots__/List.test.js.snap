@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the List component correctly 1`] = `
+<FlatList
+  data={
+    Array [
+      Object {
+        "answerIsCorrect": false,
+        "correctAnswer": true,
+        "id": 0,
+        "question": "In &quot;The Sims&quot; series, the most members in a household you can have is 8.",
+        "userAnswer": false,
+      },
+      Object {
+        "answerIsCorrect": true,
+        "correctAnswer": true,
+        "id": 1,
+        "question": "Japan was part of the Allied Powers during World War I.",
+        "userAnswer": true,
+      },
+    ]
+  }
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={2}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;

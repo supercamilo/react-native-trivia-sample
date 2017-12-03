@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Results screen correctly renders the Results container 1`] = `
+<ResultsView
+  correctCount={1}
+  dispatch={[Function]}
+  questionCount={2}
+  results={
+    Array [
+      Object {
+        "answerIsCorrect": false,
+        "correctAnswer": true,
+        "id": 0,
+        "question": "In &quot;The Sims&quot; series, the most members in a household you can have is 8.",
+        "userAnswer": false,
+      },
+      Object {
+        "answerIsCorrect": true,
+        "correctAnswer": true,
+        "id": 1,
+        "question": "Japan was part of the Allied Powers during World War I.",
+        "userAnswer": true,
+      },
+    ]
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`renders the Results screen correctly renders the Results elements 1`] = `
+<Styled(Container)>
+  <Styled(Header)
+    padder={true}
+  >
+    <Styled(H1)
+      bold={true}
+      center={true}
+    >
+      You scored
+      
+
+      1
+       / 
+      2
+    </Styled(H1)>
+  </Styled(Header)>
+  <Styled(Content)
+    padder={true}
+    style={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <List
+      idField="id"
+      list={
+        Array [
+          Object {
+            "answerIsCorrect": false,
+            "correctAnswer": true,
+            "id": 0,
+            "question": "In &quot;The Sims&quot; series, the most members in a household you can have is 8.",
+            "userAnswer": false,
+          },
+          Object {
+            "answerIsCorrect": true,
+            "correctAnswer": true,
+            "id": 1,
+            "question": "Japan was part of the Allied Powers during World War I.",
+            "userAnswer": true,
+          },
+        ]
+      }
+      renderItem={[Function]}
+      renderSectionHeader={null}
+      scrollToEnd={false}
+    />
+  </Styled(Content)>
+  <Styled(Footer)>
+    <Styled(Body)>
+      <Styled(Button)
+        bordered={true}
+        full={true}
+        info={true}
+        large={true}
+        onPress={[Function]}
+        style={
+          Object {
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          }
+        }
+      >
+        <Styled(Text)
+          uppercase={true}
+        >
+          REPEAT?
+        </Styled(Text)>
+        <Styled(Icon)
+          active={true}
+          name="repeat"
+          style={
+            Array [
+              Object {
+                "color": "#00A9CC",
+              },
+              Object {
+                "fontSize": 30,
+              },
+              Object {
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
+              },
+            ]
+          }
+        />
+      </Styled(Button)>
+      <Styled(Button)
+        bordered={true}
+        full={true}
+        info={true}
+        large={true}
+        onPress={[Function]}
+        style={
+          Object {
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          }
+        }
+      >
+        <Styled(Text)
+          uppercase={true}
+        >
+          NEW TRIVIA?
+        </Styled(Text)>
+        <Styled(Icon)
+          active={true}
+          name="play-circle-outline"
+          style={
+            Array [
+              Object {
+                "color": "#00A9CC",
+              },
+              Object {
+                "fontSize": 30,
+              },
+              Object {
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
+              },
+            ]
+          }
+        />
+      </Styled(Button)>
+    </Styled(Body)>
+  </Styled(Footer)>
+</Styled(Container)>
+`;
