@@ -186,3 +186,4 @@ Mocks and global test setup can be specified at `./__tests__/setup.js`.
 * User Interaction Tests (button clicks, scroll, etc)
 * Improve overall testing coverage
 * Comprehensive flow type check
+* Fix react-navigation exception when running screen tests
