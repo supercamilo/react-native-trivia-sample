@@ -21,7 +21,7 @@
 
 ## Overview
 
-This is a simple true or false trivia app built with React Native to showcase a **suggested** project structure, base libraries and coding style (front-end only).
+This is a simple true or false trivia app built with React Native + Redux to showcase a **suggested** project structure, base libraries and coding style (front-end only).
 
 
 ## Design
